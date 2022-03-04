@@ -2,9 +2,9 @@
 %\pointAndClickOff
 
 \include "Lib.PageSetup.ly"
-\include "Lib.MovementOne.ly"
-\include "Lib.MovementTwo.ly"
-\include "Lib.MovementThree.ly"
+\include "Lib.Mvmt.AllegroModerato.ly"
+\include "Lib.Mvmt.Adagio.ly"
+\include "Lib.Mvmt.Allegro.ly"
 
 \score {
   <<
