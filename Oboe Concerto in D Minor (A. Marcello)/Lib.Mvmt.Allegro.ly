@@ -1,5 +1,5 @@
 MovementThreeProperties = {
-  \tempo "Allegro"
+  \tempo "3. Allegro"
   \time 3/8
   \key d \minor
 }

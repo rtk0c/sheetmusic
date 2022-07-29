@@ -1,5 +1,5 @@
 MovementTwoProperties = {
-  \tempo "Adagio"
+  \tempo "2. Adagio"
   \time 3/4
   \key d \minor
 }
@@ -13,17 +13,17 @@ MovementTwoOboe_Ornamented = \relative c'' {
   d8( f) f( a) a( c16) bes16 | bes2\mordent r4 |
   c,8( e16 d16) e8( g16 f16) g8( bes16 a16) | a2\mordent r4 |
   bes,16( c32 a32 bes16 d32 cis32) d16( e32 cis32 d16 f32 e32) f16( g32 e32 f16 a32 g32) | g2\mordent r4 |
-  a,32([ gis a b] a[ bes cis a)] cis32([ d cis d] e[ d e f] e[ f g f] g[ f g e)] | f4\mordent
+  a,32([ gis a b] a[ b cis a)] cis32([ d cis d] e[ d e f] e[ f g f] g[ f g e)] | f4\mordent
   
   r16 f bes a bes( g ~ g32 f e f) | e4\prall
   r16 e f a32 g a32( f16 g32 e16.\prall f32) | \appoggiatura { e8( } d4)
   r32 d([ e f] g[ f e f)] g16( f32 e32 f16 g16) | cis,2\prall r4 |
   
   fis8( a) a( fis) c16( a' fis c) | c4( bes4)\prall r4 |
-  gis'16( bes gis a) b( gis e bes') gis( e d bes') |
+  gis'16( bes gis a) b( gis e b') gis( e d b') |
   d,8( c) f( e) e( f) ~ |
   f8 g16 f16 e8 f16 d16 e4(\mordent |
-  d16) g( f e) d( cis e d) d4\mordent |
+  e16) g( f e) d( cis e d) d4\mordent |
   
   d16( c bes c d e f e) d8( c8 ~ |
   c16 bes c a bes c d e f g a bes) |
@@ -43,8 +43,8 @@ MovementTwoOboe_Ornamented = \relative c'' {
   { d16.(\prall e32 d cis d e)
     e4\prallprall ~ e16( d b32 d f a)
   } |
-  { g8(\prall ~ g32 a g fis)
-    e32([ fis g fis] g a g fis64 g64)]
+  { gis8(\prall ~ gis32 a gis fis)
+    e32([ fis gis fis] gis a gis fis64 gis64)]
     a32( bes a g f16 g32 e)
   } |
   { f32([ g a g] f[ e f d)]

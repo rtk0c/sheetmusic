@@ -1,5 +1,5 @@
 MovementOneProperties = {
-  \tempo "Allegro Moderato"
+  \tempo "1. Allegro Moderato"
   \time 4/4
   \key d \minor
 }
@@ -16,7 +16,7 @@ MovementOneOboe = \relative c'' {
   
   \slurDashed d4\mp r16 d( e f) e8\prall a,  a'16( g a e) | f8 d8 \slurSolid
   r16 f g( f) f( e) e( a) a( e) a( e) | e( d) d( g) g( d) g( d) d8\prall cis8
-  r8 a8 | b16( cis) cis( d) d( e) e( f) f( d) d( e) d( fis) fis( g) | g4. a8 f8 e16 d16 cis8.\trill d16 | d4
+  r8 a8 | b16( cis) cis( d) d( e) e( f) f( d) d( e) e( fis) fis( g) | g4. a8 f8 e16 d16 cis8.\trill d16 | d4
   r4 r2 | R1 | r2
   
   r16 d\p d( f) f( a) a( c,) | c( bes) bes( e) e( g) g( bes,) bes( a) a( c) c( f) f( a,) |
